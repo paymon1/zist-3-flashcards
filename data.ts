@@ -3482,4 +3482,3 @@ export const FLASHCARD_DATA: Flashcard[] = [
     answer: 'توانایی شکار حیوانات بسیار بزرگتر از خود.'
   }
 ];
-];
