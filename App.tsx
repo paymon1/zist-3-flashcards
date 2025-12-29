@@ -378,7 +378,7 @@ const App: React.FC = () => {
               {/* Navigation Buttons */}
               <div className="mt-6 md:mt-8 flex items-center gap-4 w-full max-w-md justify-between">
                  <button 
-                  onClick={handleNext}
+                  onClick={handlePrev}
                   className="p-4 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm text-slate-400 hover:text-blue-600 hover:border-blue-200 active:scale-95 transition-all"
                   aria-label="Previous card"
                 >
@@ -408,7 +408,7 @@ const App: React.FC = () => {
                 </button>
 
                 <button 
-                  onClick={handlePrev}
+                  onClick={handleNext}
                   className="p-4 rounded-full bg-blue-600 shadow-lg shadow-blue-200 dark:shadow-none text-white hover:bg-blue-700 active:scale-95 transition-all"
                   aria-label="Next card"
                 >
